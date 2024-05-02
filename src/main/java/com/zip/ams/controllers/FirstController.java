@@ -9,6 +9,7 @@ public class FirstController {
 	@GetMapping("/info")
 	// @ResponseBody
 	public String info() {
+		System.out.println("test commit");
 		return "first/info";
 	}
 	
